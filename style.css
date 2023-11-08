@@ -1,6 +1,4 @@
-div{
-    margin-top: 20px;
-}
+
 span:first-child
 {
     color: red;
@@ -30,3 +28,205 @@ p:not(.text) {
 {
     color: brown;
 }
+
+.task6
+{
+    list-style: none;
+    
+}
+
+.z6 li::before{
+    content: ''; 
+    width: 10px; 
+    height: 10px; 
+    background-color: red; 
+    position: absolute; 
+    left: -15px;
+    top: 20%;
+    
+    
+}
+.z6 li{
+    position: relative;
+}
+.block1
+{
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid red; 
+}
+.block2
+{
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid purple; 
+}
+.block3
+{
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid green; 
+}
+.z7
+{
+    position: relative;
+    height: 200px;
+}
+.item
+{
+    position: absolute;
+}
+.block2
+{
+    left: 60px;
+    top:60px;
+}
+.block3
+{
+    left: 120px;
+    top:120px;
+}
+
+.z8
+{
+    
+    position: relative;
+    width: 500px;
+    height: 200px;
+}
+.items
+{
+    position: absolute;
+    
+}
+.block4
+{
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid red;
+
+}
+.block5
+{
+    left: 25px;
+    top:25px;
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid purple;
+}
+.block6
+{
+    left: 50px;
+    top:50px;
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid green;
+}
+.z9
+{
+    
+    position: relative;
+    height: 200px;
+    
+    
+
+}
+.items
+{
+    position: absolute;
+    
+}
+.block7
+{
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid red;
+    background-color: red;
+
+}
+.block8
+{
+    left: 25px;
+    top:25px;
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid purple;
+    background-color: purple;
+}
+.block9
+{
+    left: 50px;
+    top:50px;
+    width: 50px; 
+    height: 50px; 
+    border: 3px solid green;
+    background-color: green;
+}
+.block7__index
+{
+    z-index: 3;
+
+}
+.block8__index2
+{
+    z-index: 2;
+
+}
+.z11
+{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+}
+.item
+{
+    position: absolute;
+}
+.sq1
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    top:8px;
+    left: 12px;
+}
+.sq2
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    top:68px;
+    left: 168px;
+}
+.z12
+{
+    margin-top: 20px;
+    width: 1000px;
+    height: 1000px;
+
+    border: 3px solid blue;
+    position: relative;
+}
+.gren
+{
+    background-color: green;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+
+}
+.red
+{
+    top:100px;
+    left: 100px;
+    background-color:red;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+}
+
+
+
+
+
