@@ -1,0 +1,32 @@
+div{
+    margin-top: 20px;
+}
+span:first-child
+{
+    color: red;
+}
+span:last-child
+{
+    color: green;
+} 
+.z2 li:first-child
+{
+    color: red;
+}
+.z2 li:last-child
+{
+    color: green;
+}
+.z3 li:nth-child(even) {
+    background-color: yellow;
+}
+.z3 li:nth-child(odd) {
+    background-color: purple
+}
+p:not(.text) {
+    color: red; /* Цвет текста для абзацев без класса .text (красный) */
+}
+.link:active
+{
+    color: brown;
+}
